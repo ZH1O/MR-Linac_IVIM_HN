@@ -49,25 +49,15 @@ To reproduce the main results:
 
 1 **`simulation_datagenerate.ipynb`** — Generate the standard biexponential IVIM digital phantom (training and test datasets).
 
- 
-
 2 **`Segmented analytical.ipynb`** — Run segment fitting on phantom datasets.
 
 2 **`simulation_IVIMnet.ipynb`** — Train the PINN on the standard phantom.
 
 2 **`simulation_LSQ train.ipynb`** and **`simulation_LSQ-val.ipynb`** — Train and validate the LS model on phantom data.
 
- 
-
 3 **`bayesian.ipynb`** — Run Bayesian estimation on phantom datasets (based on LS on Train data).
 
- 
-
 4 **`simulation_boxplot&RMSE.ipynb`** — Generate all box plots and RMSE results.
-
-
- 
-
 
 1 **`simulation_datagenerate_ADC.ipynb`** — Generate the ADC digital phantom.
 
