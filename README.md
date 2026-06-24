@@ -2,6 +2,8 @@
 
 Code repository for the manuscript: "Optimizing IVIM Measurement on Magnetic Resonance Linear Accelerator Using Multi-b-value Acquisition and Physics-Informed Neural Networks."
 
+<img width="5512" height="1714" alt="figure4" src="https://github.com/user-attachments/assets/1b3747f1-f80d-4ded-a5bb-f357211bd0e5" />
+
 ## Software Environment
 
 - Python: 3.8.18
