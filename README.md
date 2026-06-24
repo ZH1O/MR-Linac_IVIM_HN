@@ -21,14 +21,23 @@ Code repository for the manuscript: "Optimizing IVIM Measurement on Magnetic Res
 ## Repository Structure
 
 ├── simulation_datagenerate.ipynb # Generate standard IVIM digital phantom
+
 ├── simulation_datagenerate_ADC.ipynb # Generate ADC phantom
+
 ├── Segmented analytical.ipynb # Segment fitting for IVIM parameter estimation
+
 ├── WLS ADC.ipynb # Weighted least squares (LS) estimation
+
 ├── bayesian.ipynb # Bayesian estimation
+
 ├── simulation_IVIMnet.ipynb # PINN training and inference
+
 ├── simulation_LSQ train.ipynb # LS training (phantom)
+
 ├── simulation_LSQ-val.ipynb # LS validation (phantom)
+
 ├── simulation_boxplot&RMSE.ipynb # Generate box plots, RMSE tables, and figures
+
 └── README.md
 
 
