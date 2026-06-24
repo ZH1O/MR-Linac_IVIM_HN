@@ -46,13 +46,13 @@ Code repository for the manuscript: "Optimizing IVIM Measurement on Magnetic Res
 To reproduce the main results:
 
 1. **`simulation_datagenerate.ipynb`** — Generate the standard biexponential IVIM digital phantom (training and test datasets).
-2. **`Segmented analytical.ipynb`** — Run segment fitting on both phantom datasets and output parameter estimates.
-2. **`simulation_IVIMnet.ipynb`** — Train the PINN on the standard phantom and evaluate on both standard and IVIM-DKI phantoms.
+2. **`Segmented analytical.ipynb`** — Run segment fitting on phantom datasets.
+2. **`simulation_IVIMnet.ipynb`** — Train the PINN on the standard phantom.
 2. **`simulation_LSQ train.ipynb`** and **`simulation_LSQ-val.ipynb`** — Train and validate the LS model on phantom data.
 3. **`bayesian.ipynb`** — Run Bayesian estimation on phantom datasets (based on LS on Train data).
-4. **`simulation_boxplot&RMSE.ipynb`** — Generate all box plots and RMSE tables.
+4. **`simulation_boxplot&RMSE.ipynb`** — Generate all box plots and RMSE results.
   
-1. **`simulation_datagenerate_ADC.ipynb`** — Generate the IVIM-DKI digital phantom for model-mismatch testing (K = −0.7).
+1. **`simulation_datagenerate_ADC.ipynb`** — Generate the ADC digital phantom.
 2. **`WLS ADC.ipynb`** — Run LS estimation on both phantom datasets.
 
 
